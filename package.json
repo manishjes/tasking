@@ -1,0 +1,32 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": " nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manish jeshwani",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/ejs": "^3.1.5",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node-cron": "^3.0.11",
+    "@types/validatorjs": "^3.15.5",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "validatorjs": "^3.22.1"
+  }
+}
